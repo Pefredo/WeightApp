@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.gosia.weightapplication"
-        minSdkVersion 14
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -16,6 +16,20 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+repositories {
+    jcenter()
+    maven{
+        url "https://maven.google.com"
+    }
+    maven{
+        url "https://jitpack.io"
+    }
 }
 
 dependencies {
@@ -25,4 +39,24 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //Logger
+    compile 'com.orhanobut:logger:2.1.1'
+
+    //Recycler
+    compile "com.android.support:recyclerview-v7:26.1.0"
+
+    //EndlessRecycler
+    compile 'com.github.yasevich:endless-recycler-view:1.1.0'
+
+    //Diagrams
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+
+    //Circle menu
+    compile 'com.ramotion.circlemenu:circle-menu:0.3.1'
+
+    //Toast
+    compile 'net.steamcrafted:load-toast:1.0.12'
+
+
 }
