@@ -3,4 +3,6 @@
     <string name="kg">kg</string>
     <string name="dot">.</string>
     <string name="save">Save</string>
+    <string name="type">Type</string>
+    <string name="no_text_data">No text data avalible</string>
 </resources>

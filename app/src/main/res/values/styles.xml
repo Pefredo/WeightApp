@@ -11,16 +11,36 @@
     <!--Custom themes-->
     <style name="ButtonSave" parent="@style/Widget.AppCompat.Button.Borderless">
         <item name="android:gravity">center_vertical|center_horizontal</item>
-        <item name="android:textColor">@color/colorTransparentWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:background">@drawable/button_save</item>
     </style>
 
+    <style name="ButtonStart" parent="@style/Widget.AppCompat.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/button_start</item>
+    </style>
+
     <style name="recyclerScroll">
         <item name="android:padding">8sp</item>
         <item name="android:layout_marginTop">8sp</item>
         <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="WeightTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+    <style name="historyTextView">
+        <item name="android:textColor">@color/colorGold</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
     </style>
 </resources>

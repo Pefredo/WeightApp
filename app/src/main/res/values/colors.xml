@@ -3,9 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorBackground">#C76A7D</color>
-    <color name="colorPeach">#EEA792</color>
-    <color name="colorTransparentPeach">#4DEEA792</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransparentBlack">#D9000000</color>
     <color name="colorTransparentWhite">#B3ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGold">#d3b170</color>
+    <color name="colorTransparentGold">#4Dd3b170</color>
+    <color name="colorTransparent">#80000000</color>
+    <color name="colorRed">#c43235</color>
+    <color name="colorRed2">#b56969</color>
+    <color name="colorGreen">#729f98</color>
+
 
 </resources>
